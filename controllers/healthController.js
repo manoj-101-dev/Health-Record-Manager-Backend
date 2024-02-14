@@ -1,5 +1,5 @@
 // Import using consistent casing
-import HealthRecord from "../models/HealthRecord.js";
+import HealthRecord from "../models/healthRecord.js";
 
 export const createRecord = async (req, res) => {
   try {
