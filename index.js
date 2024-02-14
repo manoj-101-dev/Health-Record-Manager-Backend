@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 
 app.use(
   cors({
-    origin: ["https://health-record-manager.vercel.app/"],
+    origin: ["https://health-record-manager.vercel.app"],
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
   })
